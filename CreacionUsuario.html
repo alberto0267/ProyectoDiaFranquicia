@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./EstiloCreacionUsuario.css" />
+  </head>
+  <body>
+    <div>
+      <img src="./Images/logo.png" alt="" />
+      <div>
+        <fieldset>
+          <legend>Creacion de usuario</legend>
+          <form id="creacionUsuario">
+            <input
+              type="text"
+              name="usuario"
+              placeholder="Nombre"
+              id="Nombre"
+            />
+            <input
+              type="text"
+              name="Apellidos"
+              placeholder="Apellidos"
+              id="Apellidos"
+            />
+            <input
+              type="text"
+              name="numeroEmpleado"
+              placeholder="NumeroEmpleado"
+              id="numeroEmpleado"
+            />
+            <input
+              type="text"
+              name="password"
+              placeholder="password"
+              id="password"
+            />
+            <button type="submit">Registrar</button>
+          </form>
+        </fieldset>
+        <div id="popUp">
+          <img src="./Images/PulgarArribaCajera.jfif" id="registroCorrecto" />
+          <span class="cerrar">X</span>
+          <div id="popContenido">
+            <p id="popMensaje"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./CreacionUsuarioJs.js"></script>
+  </body>
+</html>
