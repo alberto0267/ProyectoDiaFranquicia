@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       registroCorrecto.style.display = "block";
       popContenido.textContent =
-        "datos registrado : " + JSON.stringify(usuarios);
+        "datos registrado : " + JSON.stringify(nombre);
       cerrar.style.display = "block";
       popUp.style.display = "block";
     } else if (!nombre || !apellidos || !numeroEmpleado || !password) {

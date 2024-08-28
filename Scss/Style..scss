@@ -1,6 +1,8 @@
-body {
+@import 'InicioSesionOlvidaste';
+
+ body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ac2222;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -18,7 +20,7 @@ div {
     text-align: center;
 }
 
-/* Estilos para el <fieldset> */
+
 fieldset {
     border: 2px solid #007bff;
     border-radius: 8px;
@@ -33,7 +35,7 @@ legend {
     color: #007bff;
 }
 
-/* Estilos para los campos de entrada y el botón */
+
 input[type="text"] {
     width: calc(100% - 22px);
     padding: 10px;
@@ -57,7 +59,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Estilos para los enlaces */
+
 a {
     display: block;
     margin: 10px 0;
@@ -69,7 +71,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilos para el encabezado */
 h1 {
     background-color: white;
     border-radius: 8px;
@@ -82,19 +83,19 @@ h1 {
 h2 {
     color: #333;
 }
-#inicioSesion {
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(154, 41, 41, 0.1);
-    width: 381px;
-    text-align: -webkit-match-parent;
-}
-#creacionUsuarios{
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(154, 41, 41, 0.1);
-    width: 381px;
-    text-align: -webkit-match-parent;
-}
+// #inicioSesion {
+//     background: #fff;
+//     padding: 20px;
+//     border-radius: 8px;
+//     box-shadow: 0 0 10px rgba(154, 41, 41, 0.1);
+//     width: 381px;
+//     text-align: -webkit-match-parent;
+// }
+// #creacionUsuarios{
+//     background: #fff;
+//     padding: 20px;
+//     border-radius: 8px;
+//     box-shadow: 0 0 10px rgba(154, 41, 41, 0.1);
+//     width: 381px;
+//     text-align: -webkit-match-parent;
+// } 

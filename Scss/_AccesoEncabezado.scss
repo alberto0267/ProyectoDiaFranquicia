@@ -1,0 +1,19 @@
+@import 'Variables';
+
+#encabezado {
+    display: flex;
+    align-items: left;
+    padding: 0;
+    background-color: $colorPrincipalFondo;
+  }
+  
+  #logo {
+    padding: 50px;
+    position: relative;
+  
+    img {
+      height: 150px;
+      width: 250px;
+      // border: 5px solid black;
+    }
+  }
