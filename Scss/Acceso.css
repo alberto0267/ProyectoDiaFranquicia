@@ -1,17 +1,27 @@
 #encabezado {
   display: flex;
-  align-items: left;
-  padding: 0;
-  background-color: #DCCABC;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 128, 0.106);
+  border-bottom: 2px solid blanchedalmond;
+}
+#encabezado p {
+  font-weight: bold;
+  color: rgb(244, 238, 238);
+  position: relative;
+  bottom: 21px;
+  left: 5px;
+  background-color: black;
+  border: 7px solid black;
+  font-size: 12px;
 }
 
-#logo {
-  padding: 50px;
-  position: relative;
-}
 #logo img {
-  height: 150px;
-  width: 250px;
+  position: relative;
+  top: 10px;
+  height: 49px;
+  width: 76px;
 }
 
 body {
@@ -19,25 +29,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
-div {
-  display: flex;
-  flex-direction: column;
-}
-
-#nombreUsuario p {
-  font-weight: bold;
-  padding-left: 50px;
-  color: aqua;
-}
-
 #estructura {
-  margin-top: 20px;
+  margin-top: 1px;
 }
 
 #iconos {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
   padding: 10px;
   background-color: #e0e0e0;
 }
@@ -51,4 +50,8 @@ div {
   height: 50px;
   display: block;
   margin: 0 auto;
+}
+
+img[alt=icono] {
+  border: 2px solid black;
 }/*# sourceMappingURL=Acceso.css.map */

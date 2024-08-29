@@ -1,19 +1,36 @@
-@import 'Variables';
+// @import 'Variables';
 
 #encabezado {
-    display: flex;
-    align-items: left;
-    padding: 0;
-    background-color: $colorPrincipalFondo;
-  }
-  
-  #logo {
-    padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 128, 0.106);
+  border-bottom: 2px solid blanchedalmond;
+  p {
+    font-weight: bold;
+    color: rgb(244, 238, 238);
     position: relative;
+    bottom: 21px;
+    left: 5px;
+    background-color: black;
+    border: 7px solid black;
+    font-size: 12px;
+
   
-    img {
-      height: 150px;
-      width: 250px;
-      // border: 5px solid black;
-    }
   }
+}
+
+#logo {
+
+ img {
+    position: relative;
+    top: 10px;
+    height: 49px;
+    width: 76px;
+  }
+}
+
+
+
+
