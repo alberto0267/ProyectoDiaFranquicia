@@ -82,7 +82,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   padding: 10px;
-  background-color: rgba(225, 199, 153, 0.273);
+  background-color: rgb(225, 225, 225);
 }
 #iconos p {
   margin-top: 0;
