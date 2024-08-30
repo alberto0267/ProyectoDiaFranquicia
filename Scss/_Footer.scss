@@ -1,0 +1,36 @@
+@import "Variables";
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+
+  #Descargar {
+    color: white;
+    background-color: $AzulMarino;
+    border: 5px solid $AzulMarino;
+    border-radius: 2px;
+    margin-left: 5px;
+  }
+  a {
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+    margin-right: 25px;
+    font-size: 10px;
+  }
+  img {
+    position: relative;
+    right:125px;
+    width: 35px;
+    height: 30px;
+    margin-left: 0px;
+
+    justify-self: left;
+  }
+}
