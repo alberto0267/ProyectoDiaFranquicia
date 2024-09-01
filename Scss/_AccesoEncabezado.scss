@@ -10,10 +10,9 @@
   p {
     font-weight: bold;
     color: black;
-    
   }
 
-  #Hola{
+  #Hola {
     position: relative;
     bottom: 13px;
     right: 5px;
@@ -29,59 +28,50 @@
     position: static;
     width: 60px;
     height: 50px;
-    
   }
-
 }
- #estructura{
-
-  .icono{
-
-      img{
-        box-shadow: 2px 2px 2px black;
-      }
-   
+#estructura {
+  margin-top: 0;
+  .icono {
+    img {
+      box-shadow: 2px 2px 2px black;
+    }
   }
- }
+}
 
- .despliegue{
+.despliegue {
   position: relative;
   top: 2px;
   font-size: 15px;
   margin-right: 8px;
-  a{
+  a {
     text-decoration: none;
   }
-  
-
 }
- 
-  #opciones{
-    display: none;
-   
-     box-shadow: 5px 5px 20px black;
-     height: 250px;
-position: absolute;
-   right: 10px;
-   background-color: $ColoBlancoRoto;
-    z-index: 1;
-    width: 150px;
-    background-color: rgba($ColoBlancoRoto, $alpha: 0.3);
-   
+
+#opciones {
+  display: none;
+
+  box-shadow: 5px 5px 20px black;
+  height: 250px;
+  position: absolute;
+  right: 10px;
+  background-color: $ColoBlancoRoto;
+  z-index: 1;
+  width: 150px;
+  background-color: rgba($ColoBlancoRoto, $alpha: 0.3);
+
   //  width: 1000px;
 
-  li:last-child{
-   
+  li:last-child {
     position: absolute;
     margin-top: 85px;
   }
-  li{
+  li {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     margin-top: 20px;
-   
   }
-   
-  }
+}
