@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Alberto app</title>
     <link rel="stylesheet" href="../Scss/Acceso.css">
+    <script defer src="../JS/AccesoUsuario.js"></script>
   </head>
   <body>
-      <div id="encabezado">
+    <div id="root">
+      <header id="header">
         <div id="logo">
           <img src="../Images/Captura de pantalla 2024-09-01 095709.png" alt="" />
           <p>Control Diario</p>
         </div>
         
-        <div>
-          <div class="navbar">
+        <div id="nav-container">
+          <nav class="navbar">
             <div>
               <button  class="despliegue" ><a href="#">Hola, Alberto</a></button>
               <ul id="opciones">
@@ -24,43 +26,44 @@
                 <li class="valores">Cerrar Sesion</li>
               </ul>
             </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div id="estructura">
+          <div id="iconos">
+            <div id="Ventas" class="icono">
+              <a href=""><img src="../Images/ventasjpeg.jpeg" alt="icono">  <p>Ventas</p></a>
+             
+          </div>
+              <div id="fichajes" class="icono">
+                  <a href=""><img src="../Images/Fichaje2.jpeg" alt="icono">  <p>Fichaje</p></a>
+                 
+              </div>
+              <div id="Nominas" class="icono">
+                  <a href=""><img src="../Images/NOmina2.jpeg" alt="icono"><p>Nominas</p></a>
+              </div>
+              <div id="Calendario" class="icono">
+                  <a href=""><img src="../Images/calendario.jpeg" alt="icono"><p>Calendario</p></a>
+              </div>
+              <div id="Contrato" class="icono">
+                  <a href=""><img src="../Images/Documento.jpeg" alt="icono"><p>Contrato</p></a>
+              </div>
+              <div id="Economia" class="icono">
+                <a href=""><img src="../Images/economia.jpeg" alt="icono"><p>Economia</p></a>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div id="estructura">
-        <div id="iconos">
-          <div id="Ventas" class="icono">
-            <a href=""><img src="../Images/ventasjpeg.jpeg" alt="icono">  <p>Ventas</p></a>
-           
-        </div>
-            <div id="fichajes" class="icono">
-                <a href=""><img src="../Images/Fichaje2.jpeg" alt="icono">  <p>Fichaje</p></a>
-               
-            </div>
-            <div id="Nominas" class="icono">
-                <a href=""><img src="../Images/NOmina2.jpeg" alt="icono"><p>Nominas</p></a>
-            </div>
-            <div id="Calendario" class="icono">
-                <a href=""><img src="../Images/calendario.jpeg" alt="icono"><p>Calendario</p></a>
-            </div>
-            <div id="Contrato" class="icono">
-                <a href=""><img src="../Images/Documento.jpeg" alt="icono"><p>Contrato</p></a>
-            </div>
-            <div id="Economia" class="icono">
-              <a href=""><img src="../Images/economia.jpeg" alt="icono"><p>Economia</p></a>
-          </div>
-        </div>
-      </div>
+      </main>
+    <footer>
+      <div>
+        <img src="../Images/Captura de pantalla 2024-09-01 095709.png" alt="logoPie">
+        <a href="" id="Descargar">Descargar Control Diario</a>
+          <a href="">Privacidad</a>
+          <a href="">Cookies</a>
+        <div> 
+    </footer>
+    </div>
      
-    <script src="../JS/AccesoUsuario.js"></script>
   </body>
-  <footer>
-    <div>
-      <img src="../Images/Captura de pantalla 2024-09-01 095709.png" alt="logoPie">
-      <a href="" id="Descargar">Descargar Control Diario</a>
-        <a href="">Privacidad</a>
-        <a href="">Cookies</a>
-      <div> 
-  </footer>
 </html>
