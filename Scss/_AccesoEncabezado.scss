@@ -31,11 +31,6 @@
     height: 50px;
     
   }
-  p{
-    position: relative;
-    top: 1px;
-    font-size: 15px;
-  }
 
 }
  #estructura{
@@ -49,13 +44,44 @@
   }
  }
 
- 
+ .despliegue{
+  position: relative;
+  top: 2px;
+  font-size: 15px;
+  margin-right: 8px;
+  a{
+    text-decoration: none;
+  }
+  
+
+}
  
   #opciones{
     display: none;
-     list-style: none;
+   
      box-shadow: 5px 5px 20px black;
      height: 250px;
-   position: absolute;
+position: absolute;
+   right: 10px;
    background-color: $ColoBlancoRoto;
+    z-index: 1;
+    width: 150px;
+    background-color: rgba($ColoBlancoRoto, $alpha: 0.3);
+   
+  //  width: 1000px;
+
+  li:last-child{
+   
+    position: absolute;
+    margin-top: 85px;
+  }
+  li{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+   
+  }
+   
   }
