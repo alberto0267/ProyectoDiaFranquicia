@@ -1,8 +1,9 @@
+@import 'Variables';
 @import 'InicioSesionOlvidaste';
 
  body {
     font-family: Arial, sans-serif;
-    background-color: #ac2222;
+    background-color:white;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -15,24 +16,26 @@ div {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.971);
+    width: 420px;
     text-align: center;
+    color: black;
 }
 
 
 fieldset {
-    border: 2px solid #007bff;
+    border: 2px solid $AzulMarino;
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
     box-sizing: border-box;
-    background: #f9f9f9;
+    background: $ColoBlancoRoto;
 }
 
 legend {
     font-weight: bold;
-    color: #007bff;
+ 
 }
 
 
@@ -41,61 +44,37 @@ input[type="text"] {
     padding: 10px;
     margin: 10px 0;
     border-radius: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     box-sizing: border-box;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: $AzulMarino;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
 
 
 a {
     display: block;
     margin: 10px 0;
-    color: #007bff;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    color: inherit;
 }
 
 h1 {
-    background-color: white;
+
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
-    color: #333;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     color: #333;
 }
-// #inicioSesion {
-//     background: #fff;
-//     padding: 20px;
-//     border-radius: 8px;
-//     box-shadow: 0 0 10px rgba(154, 41, 41, 0.1);
-//     width: 381px;
-//     text-align: -webkit-match-parent;
-// }
-// #creacionUsuarios{
-//     background: #fff;
-//     padding: 20px;
-//     border-radius: 8px;
-//     box-shadow: 0 0 10px rgba(154, 41, 41, 0.1);
-//     width: 381px;
-//     text-align: -webkit-match-parent;
-// } 
+

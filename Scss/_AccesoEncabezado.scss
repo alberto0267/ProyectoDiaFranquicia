@@ -4,13 +4,12 @@
   display: flex;
   justify-content: space-between;
   padding: 0px;
-  background-color: rgba(233, 233, 239, 0.106);
-  border-bottom: 1px solid $AzulMarino;
+  background-color: white;
+  border-bottom: 1px solid black;
   margin-bottom: 0;
-  
   p {
     font-weight: bold;
-    color: $AzulMarino;
+    color: black;
     
   }
 
@@ -39,3 +38,24 @@
   }
 
 }
+ #estructura{
+
+  .icono{
+
+      img{
+        box-shadow: 2px 2px 2px black;
+      }
+   
+  }
+ }
+
+ 
+ 
+  #opciones{
+    display: none;
+     list-style: none;
+     box-shadow: 5px 5px 20px black;
+     height: 250px;
+   position: absolute;
+   background-color: $ColoBlancoRoto;
+  }
