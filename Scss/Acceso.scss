@@ -8,19 +8,28 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  color: black;
-  display: flex;
-  flex-direction: column;
+ display: grid;
+ grid-template-columns: auto;
+ place-content: center;
   height: 100vh;
-  background-color: $ColoBlancoRoto;
+  background-color: gray;
+ 
 }
+// #root{
+
+
+// }
 
 #estructura {
   margin-top: 1px;
-  border-bottom: 1px solid black;
+  // border-bottom: 5px solid black;
   min-height: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  
 }
 
 #iconos {

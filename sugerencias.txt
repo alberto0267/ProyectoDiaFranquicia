@@ -1,7 +1,1 @@
-encabezado:
-volver calido el fondo, blanco calido
-los border, font, negro
-
-los inconos tiene o negro o se mantienen
-ls estructura mas calido
-footer y encabezado como el que ya esta en varibale
+el logo,een vez de redondocuadrado.;

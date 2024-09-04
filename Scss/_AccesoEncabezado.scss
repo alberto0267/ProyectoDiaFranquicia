@@ -1,6 +1,17 @@
 @import "Variables";
 
-#encabezado {
+
+
+#root{
+border:2px solid;
+display: grid;
+// grid-template-rows: 0.1fr 2fr 0fr 0fr;
+min-width: 45rem;
+min-height: 46rem;
+
+}
+#header {
+  
   display: flex;
   justify-content: space-between;
   padding: 0px;
@@ -30,15 +41,18 @@
     height: 50px;
   }
 }
+main{
+
 #estructura {
   margin-top: 0;
+ 
   .icono {
     img {
       box-shadow: 2px 2px 2px black;
     }
   }
 }
-
+}
 .despliegue {
   position: relative;
   top: 2px;
