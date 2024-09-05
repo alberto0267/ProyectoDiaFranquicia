@@ -5,9 +5,10 @@
 #root{
 border:2px solid;
 display: grid;
-// grid-template-rows: 0.1fr 2fr 0fr 0fr;
+grid-template-rows: 0.1fr 2fr 0fr 0fr;
 min-width: 45rem;
 min-height: 46rem;
+// border: 2px solid;
 
 }
 #header {
@@ -39,20 +40,11 @@ min-height: 46rem;
     position: static;
     width: 60px;
     height: 50px;
+   
+   
   }
 }
-main{
 
-#estructura {
-  margin-top: 0;
- 
-  .icono {
-    img {
-      box-shadow: 2px 2px 2px black;
-    }
-  }
-}
-}
 .despliegue {
   position: relative;
   top: 2px;

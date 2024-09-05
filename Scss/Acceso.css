@@ -1,6 +1,7 @@
 #root {
   border: 2px solid;
   display: grid;
+  grid-template-rows: 0.1fr 2fr 0fr 0fr;
   min-width: 45rem;
   min-height: 46rem;
 }
@@ -33,13 +34,6 @@
   position: static;
   width: 60px;
   height: 50px;
-}
-
-main #estructura {
-  margin-top: 0;
-}
-main #estructura .icono img {
-  box-shadow: 2px 2px 2px black;
 }
 
 .despliegue {
@@ -118,10 +112,9 @@ body {
 }
 
 #estructura {
-  margin-top: 1px;
   min-height: 100%;
   display: grid;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr 0fr;
 }
 
 #iconos {
@@ -130,9 +123,10 @@ body {
   gap: 80px;
   padding: 10px;
   background-color: rgb(241, 237, 222);
+  padding-top: 2rem;
 }
 #iconos p {
-  margin-top: 0;
+  margin-top: 0.5rem;
 }
 #iconos a {
   text-decoration: none;
@@ -148,9 +142,19 @@ body {
   height: 50px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 1px;
+  margin-bottom: 2px;
 }
 
 img[alt=icono] {
   border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+/*Se lo metere cuando tenga el responsy*/
+.icono {
+  transition: all 0.3s ease;
+}
+
+.icono:hover {
+  transform: perspective(10px) rotateX(13deg) translateY(55%) scale(1);
 }/*# sourceMappingURL=Acceso.css.map */

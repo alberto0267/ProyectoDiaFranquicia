@@ -24,11 +24,10 @@ body {
 // }
 
 #estructura {
-  margin-top: 1px;
-  // border-bottom: 5px solid black;
+  
   min-height: 100%;
   display: grid;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr 0fr;
   
 }
 
@@ -38,8 +37,10 @@ body {
   gap: 80px;
   padding: 10px;
   background-color: $ColoBlancoRoto;
+  padding-top: 2rem;
+
   p {
-    margin-top: 0;
+    margin-top: .5rem;
   }
   a {
     text-decoration: none;
@@ -56,8 +57,20 @@ body {
   height: 50px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 1px;
+  margin-bottom: 2px;
 }
 img[alt="icono"] {
   border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+/*Se lo metere cuando tenga el responsy*/
+.icono{
+  transition: all .3s ease;
+  // background-color: aqua;
+}
+
+.icono:hover{
+  transform: perspective(10px) rotateX(13deg) translateY(55%) scale(1) ;
 }
