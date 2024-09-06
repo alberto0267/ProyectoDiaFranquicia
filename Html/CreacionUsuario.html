@@ -5,58 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../Scss/StyleCreacionUser.css" />
+    <script src="../JS/CreacionUsuarioJs.js"></script>
   </head>
   <body>
-    <div id="sub">
-      <img src="../Images/logo.png" alt="" />
-      <div>
-        <fieldset>
-          <legend>Creacion de usuario</legend>
-          <form id="creacionUsuario">
-            <input
-              type="text"
-              name="usuario"
-              placeholder="Nombre"
-              id="Nombre"
-            />
-            <input
-              type="text"
-              name="Apellidos"
-              placeholder="Apellidos"
-              id="Apellidos"
-            />
-            <input
-              type="text"
-              name="numeroEmpleado"
-              placeholder="Tu numero de empleado"
-              id="numeroEmpleado"
-            />
-            <input
-              type="text"
-              name="password"
-              placeholder="password"
-              id="password"
-            />
-            <button type="submit">Registrar</button>
-          </form>
-        </fieldset>
-        <div id="popUp">
-          <img src="../Images/PulgarArribaCajera.jfif" id="registroCorrecto" />
-          <span class="cerrar">X</span>
-          <div id="popContenido">
-            <p id="popMensaje"></p>
-          </div>
-        </div>
-        <div id="popError">
-          <div id="ContenidoError">
-            <div id="imagenError">
-              <img src="../Images/XError.jfif" alt="errorDatos" />
-            </div>
-            <p id="popErrorMensaje">Faltan datos, todos son obligatorios</p>
-          </div>
-        </div>
+    <div id="root">
+      <div id="logo">
+        <!-- <img src="../Images/Captura de pantalla 2024-09-01 095709.png" alt="" /> -->
+        <h1></h1>
       </div>
+      <main>
+        <div id="main">
+          <fieldset>
+            <legend>Creacion de usuario</legend>
+            <form id="creacionUsuario">
+              <input
+                type="text"
+                name="usuario"
+                placeholder="Nombre"
+                id="Nombre"
+              />
+              <input
+                type="text"
+                name="Apellidos"
+                placeholder="Apellidos"
+                id="Apellidos"
+              />
+              <input
+                type="text"
+                name="numeroEmpleado"
+                placeholder="Tu numero de empleado"
+                id="numeroEmpleado"
+              />
+              <input
+                type="text"
+                name="password"
+                placeholder="password"
+                id="password"
+              />
+              <button type="submit">Registrar</button>
+            </form>
+          </fieldset>
+        </div>
+
+        <!-- Aqui van los pops pero los activo al arreglar
+        el fiedl -->
+
+        <!-- <div id="pops">
+          <div id="popUp">
+            <img
+              src="../Images/PulgarArribaCajera.jfif"
+              id="registroCorrecto"
+            />
+            <span class="cerrar">X</span>
+            <div id="popContenido">
+              <p id="popMensaje"></p>
+            </div>
+          </div>
+          <div id="popError">
+            <div id="ContenidoError">
+              <div id="imagenError">
+                <img src="../Images/XError.jfif" alt="errorDatos" />
+              </div>
+              <p id="popErrorMensaje">Faltan datos, todos son obligatorios</p>
+            </div>
+          </div>
+        </div> -->
+      </main>
     </div>
-    <script src="../JS/CreacionUsuarioJs.js"></script>
   </body>
 </html>

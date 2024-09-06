@@ -15,7 +15,9 @@ body {
  grid-template-columns: auto;
  place-content: center;
   height: 100vh;
-  background-color: gray;
+  background-color: #8a9659fc;
+  // background-color: rgb(20, 20, 123);
+  // background-color: rgb(102, 23, 23);
  
 }
 // #root{
@@ -36,7 +38,8 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   padding: 10px;
-  background-color: $ColoBlancoRoto;
+  // background-color: $ColoBlancoRoto;
+ background:$ColoBlancoRoto;
   padding-top: 2rem;
 
   p {
@@ -44,7 +47,8 @@ body {
   }
   a {
     text-decoration: none;
-    color: inherit;
+    color: #8a9659fc;
+    font-weight: bold;
   }
 }
 
@@ -71,6 +75,6 @@ img[alt="icono"] {
   // background-color: aqua;
 }
 
-.icono:hover{
-  transform: perspective(10px) rotateX(13deg) translateY(55%) scale(1) ;
-}
+// .icono:hover{
+//   transform: perspective(10px) rotateX(13deg) translateY(55%) scale(1) ;
+// }
