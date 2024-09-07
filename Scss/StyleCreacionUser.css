@@ -9,9 +9,12 @@ body {
 
 #root {
   background: linear-gradient(white 5%, rgb(241, 237, 222));
+  display: grid;
+  grid-template-rows: 0fr;
   border: 3px solid;
   width: 45rem;
   height: 45rem;
+  box-shadow: 5px 5px 2px rgb(241, 237, 222);
 }
 
 #logo h1 {
@@ -37,17 +40,19 @@ body {
 }
 #logo h1::before {
   animation: controlDiario 5s ease;
+  animation-iteration-count: 5;
   content: "Control Diario";
 }
 
 main {
-  border: 2px solid #020345;
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #020345;
+  color: black;
   font-weight: bold;
+}
+main fieldset {
+  border: none;
 }
 main form {
   display: flex;
@@ -56,9 +61,80 @@ main form {
   justify-content: center;
   align-content: center;
   padding-left: 2rem;
+  padding-top: 1rem;
+  gap: 0.3rem;
+  color: black;
+}
+main input {
+  color: rgba(138, 150, 89, 0.9882352941);
+  font-weight: bold;
+}
+main input::-moz-placeholder {
+  color: rgba(138, 150, 89, 0.9882352941);
+}
+main input::placeholder {
+  color: rgba(138, 150, 89, 0.9882352941);
+}
+main option {
+  color: rgba(138, 150, 89, 0.9882352941);
+}
+main #OtherSector {
+  display: none;
+}
+main #OtherSector input {
+  width: 30rem;
+  display: flex;
+  justify-self: center;
+  border: 0.2rem solid;
 }
 
-img {
-  display: block;
-  height: 100%;
+#buttonID {
+  display: flex;
+  position: relative;
+  padding-top: 2rem;
+  padding-left: 33rem;
+  height: 2rem;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+
+#button {
+  width: 8rem;
+  height: 1.7rem;
+  color: black;
+  font-weight: bold;
+  background-color: rgba(138, 150, 89, 0.9882352941);
+  border-radius: 2rem;
+  box-shadow: 5px 5px 5px black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  padding-top: 15rem;
+  place-content: center;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  padding-right: 4rem;
+  padding-left: 2rem;
+}
+footer img {
+  position: relative;
+  right: 4rem;
+  width: 2rem;
+  opacity: 0.8;
+  padding-right: 0;
+}
+footer #Descargar {
+  color: white;
+  background-color: rgb(0, 0, 128);
+  border: 5px solid rgb(0, 0, 128);
+  border-radius: 2px;
+  padding-right: 0;
+  padding-left: 0;
+  gap: 1rem;
 }/*# sourceMappingURL=StyleCreacionUser.css.map */

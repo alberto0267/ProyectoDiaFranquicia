@@ -1,14 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
   const formCreacionUsuario = document.getElementById("creacionUsuario");
-          
-  
-        ///Pop mensaje correcto///
+
+  ////Pops///
+
+  ///Pop mensaje correcto///
   const popUp = document.getElementById("popUp");
   const popContenido = document.getElementById("popContenido");
   const cerrar = document.getElementsByClassName("cerrar")[0];
   const registroCorrecto = document.getElementById("registroCorrecto");
 
-                       ////pop Error///
+  ////pop Error///
   const popError = document.getElementById("popError");
   const ContenidoError = document.getElementById("ContenidoError");
   const imagenError = document.getElementById("imagenError");
@@ -32,8 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem(numeroEmpleado, JSON.stringify(usuarios));
 
       registroCorrecto.style.display = "block";
-      popContenido.textContent =
-        "datos registrado : " + JSON.stringify(nombre);
+      popContenido.textContent = "datos registrado : " + JSON.stringify(nombre);
       cerrar.style.display = "block";
       popUp.style.display = "block";
     } else if (!nombre || !apellidos || !numeroEmpleado || !password) {
@@ -42,14 +42,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // acceso de usuario, vendria aqui alberto una vez acceda, debes crear consta
+  // llamando los IdleDeadline, llamando lo que la alamcenastes en el JSON
+  // lo que creaste con localStorage
+  // y alli acceder, pero primero debes crear la pagina a la cual accedera
 
-// acceso de usuario, vendria aqui alberto una vez acceda, debes crear consta
-// llamando los IdleDeadline, llamando lo que la alamcenastes en el JSON
-// lo que creaste con localStorage
-// y alli acceder, pero primero debes crear la pagina a la cual accedera
+  ///Otro sector///
 
+  const OtherSector = document.getElementById("Sector");
+const OtherSectorInput = document.getElementById("OtherSector");
 
+OtherSector.addEventListener('change', (event)=>{
+  if (OtherSector.value === "Otro") {
+    OtherSectorInput.style.display = "block";
+    console.log('si entra');
+  } else {
+    OtherSectorInput.style.display = "none";
+    console.log('entra en else');
+  }
 
-
+})
+   
+  
 });
-

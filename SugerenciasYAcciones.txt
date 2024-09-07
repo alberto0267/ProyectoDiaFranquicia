@@ -1,0 +1,3 @@
+el logo,een vez de redondocuadrado.;
+
+Cambiar el color a los option que estan ocultos
