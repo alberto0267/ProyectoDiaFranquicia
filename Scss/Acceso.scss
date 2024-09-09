@@ -6,25 +6,40 @@
 
 // $colorPrincipalFondo :rgb(250,250,250);
 
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   font-weight: bold;
  display: grid;
- grid-template-columns: auto;
+ grid-template-columns: 100%;
  place-content: center;
   height: 100vh;
-  background-color: #8a9659fc;
-  // background-color: rgb(20, 20, 123);
-  // background-color: rgb(102, 23, 23);
+  background-image: url(../Images/fondo2.jpg);
  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  // background-color: #8a9659fc;
+  // background: linear-gradient(70deg, $ColoBlancoRoto, $ColorVerdeOliva);
+  // background-size: 400% 400%;
+  // animation: gradientBG 3s ease infinite;
 }
 // #root{
 
 
 // }
-
+#root{
+  // border:2px solid;
+  display: grid;
+  grid-template-rows: 0fr 30fr 0fr 0fr;
+  min-width: 45rem;
+  min-height: 46rem;
+  // border: 2px solid;
+  
+  }
 #estructura {
   
   min-height: 100%;
@@ -33,15 +48,26 @@ body {
   
 }
 
+// @keyframes gradientBG {
+//   0% { background-position: 10% 50%; }
+//   50% { background-position: 100% 50%; }
+//   100% { background-position: 0% 50%; }
+// }
+
 #iconos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   padding: 10px;
-  // background-color: $ColoBlancoRoto;
- background:$ColoBlancoRoto;
-  padding-top: 2rem;
 
+//  background:$ColoBlancoRoto;
+//  background-image: url(../Images/FondoPrueba.jpg);
+// background-size: cover;
+// background-position: center;
+// background-repeat: no-repeat;
+  padding-top: 2rem;
+ 
+    
   p {
     margin-top: .5rem;
   }
@@ -64,8 +90,8 @@ body {
   margin-bottom: 2px;
 }
 img[alt="icono"] {
-  border: 2px solid black;
-  box-shadow: 2px 2px 2px black;
+  // border: 2px solid black;
+  box-shadow: 4px 4px 5px black;
 }
 
 
@@ -78,3 +104,4 @@ img[alt="icono"] {
 // .icono:hover{
 //   transform: perspective(10px) rotateX(13deg) translateY(55%) scale(1) ;
 // }
+ /* Animación para mover el fondo */

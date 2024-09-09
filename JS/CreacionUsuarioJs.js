@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const popErrorMensaje = document.getElementById("popErrorMensaje");
 
   formCreacionUsuario.addEventListener("submit", (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     const nombre = document.getElementById("Nombre").value;
     const apellidos = document.getElementById("Apellidos").value;
     const numeroEmpleado = document.getElementById("numeroEmpleado").value;

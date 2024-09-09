@@ -1,0 +1,98 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-color: rgba(1, 1, 1, 0.891);
+}
+body #root header #Header {
+  display: flex;
+  flex-direction: column;
+}
+body #root header #Header h1 {
+  font-weight: bold;
+  color: rgba(138, 150, 89, 0.9882352941);
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+body #root header #Header p {
+  opacity: 0.2;
+  color: aliceblue;
+  font-weight: bold;
+  display: flex;
+  justify-self: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+body #root main {
+  padding-top: 1rem;
+  display: flex;
+}
+body #root main #root2 input::-moz-placeholder {
+  color: rgba(138, 150, 89, 0.9882352941);
+  font-weight: bold;
+  text-align: center;
+}
+body #root main #root2 input::placeholder {
+  color: rgba(138, 150, 89, 0.9882352941);
+  font-weight: bold;
+  text-align: center;
+}
+body #root main #root2 input[type=text] {
+  width: 37rem;
+  color: rgba(138, 150, 89, 0.9882352941);
+  font-weight: bold;
+  opacity: 0.5;
+}
+body #root main #root2 #button {
+  padding-top: 0.5rem;
+  position: relative;
+  left: 34rem;
+}
+body #root main #root2 #button button {
+  background-color: rgba(138, 150, 89, 0.9882352941);
+  color: black;
+  font-weight: bold;
+  height: 2rem;
+  height: 2rem;
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px black;
+}
+body #root #Pop {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.744);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+body #root #Pop p {
+  animation: cambioColores 5s ease infinite;
+  font-size: 5rem;
+  color: white;
+  font-weight: bold;
+}
+body #root #Pop a {
+  color: rgba(138, 150, 89, 0.9882352941);
+  font-weight: bold;
+  position: relative;
+  left: 15rem;
+}
+@keyframes cambioColores {
+  25% {
+    color: red;
+  }
+  50% {
+    color: rgba(138, 150, 89, 0.9882352941);
+  }
+  75% {
+    color: rgb(241, 237, 222);
+  }
+  100% {
+    color: white;
+  }
+}/*# sourceMappingURL=OlvidoDeContraseña.css.map */

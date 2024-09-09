@@ -1,3 +1,6 @@
 el logo,een vez de redondocuadrado.;
 
 Cambiar el color a los option que estan ocultos
+
+hacer el colos la letra de os inputs mas oscura
+ponerle sombra a los foote y header
