@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const dotCom = input.value.includes('.com');
     const dotEs = input.value.includes('.es');
 
-    if (input.value === "" || !atSing || (!dotCom && !dotEs)) {
+    if (input.value === "" || !atSing || (!dotCom || !dotEs)) {
       event.preventDefault();
       console.log("Entra if");
       pop.style.display = "flex";
